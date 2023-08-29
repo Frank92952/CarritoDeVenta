@@ -1,16 +1,17 @@
 import { useState } from 'react'
-import { FaBeer } from 'react-icons/fa';
+import Sidebar from './components/shared/Sidebar'
 
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  
   return (
     <>
-       <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-    <h3> Lets go for a <FaBeer />? </h3>
+   <div className='bg-[#262837] w-full min-h-screen'>
+      <Sidebar />
+   </div>
+      
+    
+    
     </>
   )
 }
