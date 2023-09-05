@@ -28,7 +28,7 @@ const  Card = (props) => {
           <h5 className='col-span-1'>Items</h5>
         </div>
         {/* Products */}
-        <div className='h-[470px] md:h-[750px] lg:h-[750px] overflow-scroll scrollbar-hide'>
+        <div className='h-[470px] md:h-[750px] lg:h-[750px] overflow-scroll scrollbar-none'>
           {/* Product */}
           <div className='bg-[#262837] p-4 rounded-xl mb-4'>
             <div className='grid grid-cols-6 mb-4' >
